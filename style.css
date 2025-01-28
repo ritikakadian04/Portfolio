@@ -1,0 +1,126 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* General Body styling */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  /* Profile container styling */
+  .profile-container {
+    display: flex; /* Flexbox layout */
+    align-items: center; /* Vertically align content */
+    gap: 20px; /* Adds space between image and text */
+    padding: 30px; /* Adds padding around the profile content */
+    max-width: 900px;
+    margin: 50px auto; /* Center the container on the page */
+    background-color: #fff; /* White background */
+    border-radius: 12px; /* Rounded corners for the card effect */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Slight shadow for a card effect */
+  }
+  
+  /* Profile image styling */
+  .profile-image {
+    width: 200px; /* Adjusted size */
+    height: 200px; /* Ensures square shape */
+    border-radius: 10px; /* Slightly rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds shadow for aesthetics */
+    object-fit: cover; /* Ensures image fits inside the square frame */
+  }
+  
+  /* Profile details text styling */
+  .profile-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  /* Profile name styling */
+  .profile-details h1 {
+    font-size: 2.5em; /* Bigger font size for the name */
+    margin-bottom: 10px;
+  }
+  
+  /* Profile paragraph styling */
+  .profile-details p {
+    font-size: 1.3em; /* Adjusted font size */
+    margin: 5px 0;
+    font-weight: bold;
+  }
+  
+  /* Header styling */
+  header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+  }
+  
+  /* Navigation styling */
+  nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+  }
+  
+  nav ul li {
+    margin: 0 1rem;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fff; /* Set the font color to white */
+    font-size: 18px;
+  }
+  
+  /* Section styling */
+  section {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  footer {
+    background: #808080; /* Grey background color */
+    color: #000; /* Black text color */
+    text-align: center;
+    padding: 1rem;
+    margin-top: 20px;
+    border: 1px solid black; /* Keeps the border for visibility */
+  }
+  
+  footer * {
+    color: #000; /* Ensures all elements inside the footer also have black text */
+  }
+  
+  /* About section styling */
+  #about {
+    text-align: left; /* Align text to the left */
+    padding: 2rem; /* Optional: Adds some spacing around the content */
+  }
+  
+  #about p {
+    line-height: 1.6; /* Improves readability */
+  }
+  
+  /* Project container styling */
+  .project {
+    margin: 1rem 0;
+  }
+  
+  /* Media query for responsiveness on smaller screens */
+  @media (max-width: 600px) {
+    nav ul {
+      flex-direction: column;
+    }
+    .profile-container {
+      flex-direction: column;
+      text-align: center; /* Center text on smaller screens */
+    }
+  }  

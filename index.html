@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    section h2 {
+      text-align: center; 
+      margin-bottom: 1rem;
+    }
+
+    section p {
+      text-align: justify;
+      line-height: 1.6; 
+    }
+
+    /* Styling for the navigation */
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    nav ul li {
+      display: inline;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #ffff;
+      font-size: 18px;
+    }
+
+    /* Optional: Footer styling */
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #f8f8f8;
+    }
+
+    footer p {
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <section id="home">
+    <div class="profile-container">
+      <img src="ritika.jpg" alt="Ritika Kadian" class="profile-image">
+      <div class="profile-details">
+        <h1>Ritika Kadian</h1>
+        <p><b>Passionate MERN Stack Developer | MCA Student | Aspiring AI Researcher</b></p>
+        <p>Welcome to my professional portfolio!</p>
+      </div>
+    </div>
+  </section>
+  
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p> 
+        <b>BACKGROUND</b><br>
+        I am Ritika Kadian, a passionate and driven individual currently pursuing my Master of Computer 
+        Applications (MCA). Over the years, I have built a strong foundation in computer science and 
+        technology, complemented by hands-on experience in artificial intelligence and my current role 
+        as a Project Intern at Indian Oil Corporation Limited (IOCL), Faridabad. My leadership skills 
+        are demonstrated through my role as the joint secretary of my university’s music club, where I
+         excelled in team management, communication, and time management.
+         I successfully qualified the UGC-NET exam for Assistant Professor and Ph.D. pursuit in my first 
+        attempt, reflecting my academic dedication.
+        <br><br>
+        Skilled in MERN stack development, I have expertise in React.js, Node.js, Express.js, 
+        MongoDB, JavaScript, HTML5, CSS3 and responsive design. I specialize in creating 
+        dynamic web applications, RESTful APIs, and scalable solutions, with a focus on 
+        problem-solving and teamwork. Passionate about continuous learning, I strive to deliver impactful solutions.  
+      <br><br>
+    </p>
+  </section>
+
+  <section id="skills">
+    <b>SKILLS</b>
+    <p>1. Technical Proficiency: Expertise in programming languages and 
+        development tools, with practical experience in application development and IoT-based solutions.</p>
+    <p>2. Research and Academics: Qualified UGC-NET in my first attempt, 
+        showcasing my strong academic capabilities and passion for teaching and research.</p>
+    <p>3. Team Leadership and Communication: Successfully led teams and 
+        managed events as a joint secretary, exhibiting strong organizational and interpersonal skills.</p>
+    <p>4. Problem-Solving and Analytical Thinking: Engaged in creating innovative
+         solutions in areas such as IoT and network security.</p>
+  </section>
+
+  <section id="career-goals">
+    <b>CAREER GOALS</b>
+    <p><i>My career goals are twofold:</i></p>
+    <p>1. In the immediate term, I aim to enhance and build relevant skills
+         as a MERN Stack Developer by working on real-world projects and expanding my expertise in 
+         web development. I am focused on developing hands-on experience with modern technologies to 
+         establish a strong foundation for my professional growth in this field.</p>
+    <p>2. Long-term, I aspire to pursue a career in academics as an 
+        Assistant Professor and researcher. My UGC-NET qualification has further solidified my 
+        goal of contributing to the education sector by mentoring and inspiring future technologists 
+        while conducting cutting-edge research in areas like artificial intelligence, computer vision and IoT.
+    </p>
+  </section>
+
+  <section id="projects">
+    <h2>My Projects</h2>
+    
+    <ol style="list-style-type: none; padding-left: 0;">
+      <li style="display: flex; align-items: flex-start; gap: 8px;">
+        <span style="font-weight: bold;">1.</span>
+        <div>
+          <span style="font-weight: bold; display: block; text-align: left;">Medicinal Plant Detector</span><br>
+          <p><strong>Mentor Name:</strong> Dr. Manjeet Singh</p>
+          <p><strong>Skills Used:</strong> Machine Learning, Java, Android Studio, Image Processing & CNN</p>
+          <p><strong>Timeline:</strong> 01/30/23 - 05/12/23</p>
+          <p>The Medicinal Plant Detector is an Android application designed to identify and detect medicinal plants and their benefits using a vast database of plant images. By employing Convolutional Neural Networks (CNN) and advanced image processing techniques, the app accurately recognizes various medicinal plant species, providing detailed information about their uses and health benefits.</p>
+        </div>
+      </li> <br>
+      
+      <li style="display: flex; align-items: flex-start; gap: 8px;">
+        <span style="font-weight: bold;">2.</span>
+        <div>
+          <span style="font-weight: bold; display: block; text-align: left;">IoT-Based Automated Water 
+            Conservation & Plant Irrigation System</span><br>
+          <p><strong>Mentor Names:</strong> Dr. Parul Tomar and Dr. Sonam Khera</p>
+          <p><strong>Skills Used:</strong> IoT, Embedded Systems, Automation, Sensor Integration</p>
+          <p><strong>Timeline:</strong> 28/10/2024 - 12/12/2024</p>
+          <p>This project automates the repurposing of Reverse Osmosis (RO) wastewater for sustainable plant irrigation. The system collects wastewater in a storage container monitored by a water level sensor to prevent overflow. A soil moisture sensor tracks soil humidity, and when levels drop below the threshold, a relay module activates a water pump to irrigate the plants. A buzzer alerts when the container is full, ensuring timely intervention. This eco-conscious solution minimizes water wastage and reduces reliance on freshwater resources.</p>
+        </div>
+      </li>
+    </ol>
+  </section>
+  
+  
+
+  <section id="contact">
+    <h2>Contact Details</h2>
+    <p>Phone: <a href="tel:+91 8920490563">+91 8920490563</a></p>
+    <p>Email: <a href="mailto:ritikakadian137@gmail.com">ritikakadian137@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/ritika-k-3584b7204?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">https://www.linkedin.com/in/ritika-k-3584b7204?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 RITIKA KADIAN. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
